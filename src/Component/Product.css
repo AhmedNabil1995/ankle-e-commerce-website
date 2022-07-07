@@ -1,0 +1,70 @@
+.product-info{
+    padding: 50px 0;
+}
+
+.product-info img{
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.product-info h4{
+    font-family: cursive;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.product-info p:first-of-type{
+    font-size: 18px;
+}
+
+.product-info p span{
+    font-weight: bold;
+}
+
+.product-info p:last-of-type{
+    color: #777;
+}
+
+.product-info label{
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.product-info select{
+    width: 300px;
+    max-width: 100%;
+    padding: 5px 10px;
+    color: #777;
+}
+
+.product-info .controller{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-info .controller .count button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+.product-info .controller .count span{
+    padding: 10px 15px;
+    font-size: 24px;
+}
+
+.product-info .controller > button{
+    padding: 10px 15px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}

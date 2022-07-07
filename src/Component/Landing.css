@@ -1,0 +1,55 @@
+.landing{
+    position: relative;
+}
+
+.landing img{
+    width: 100%;
+    transition: 0.8s;
+}
+
+.landing_text{
+    position:absolute;
+    top: 5vw;
+    margin:0 2vw;
+    max-width: 35vw;
+}
+
+.landing_text h1{
+    font-size: 10vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.landing_text p{
+    font-size: 3vw;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.landing_text button{
+    background-color: black;
+    color: white;
+    font-size: 2.8vw;
+    padding: 10px;
+    font-family: cursive;
+    font-style: italic;
+    border: none;
+    outline: none;
+}
+
+
+.landing_btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.landing_btn button{
+    background-color: black;
+    color: white;
+    padding: 1vw 2vw;
+    font-size: 5vw;
+    border: none;
+    outline: none;
+}

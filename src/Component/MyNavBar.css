@@ -1,0 +1,36 @@
+ .navBar a{
+    padding:10px 20px !important;
+    font-size: 20px;
+    color: white !important;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+li i{
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.person-pages{
+position: absolute;
+top: 150%;
+right: 0;
+z-index: 1;
+background-color: darkred;
+width: 130px;
+text-align: center;
+}
+
+.person-pages .person-link{
+    display: block;
+    text-decoration: none;
+}
+

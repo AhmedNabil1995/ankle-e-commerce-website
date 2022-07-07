@@ -1,0 +1,22 @@
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about .img img{
+    width: 100%;
+}
+
+.about .text{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about .row{
+    text-align: center;
+}
+
+
+.about .row h3{
+    margin: 15px 0;
+}

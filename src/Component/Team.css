@@ -1,0 +1,44 @@
+.team-card{
+    text-align: center;
+    position: relative;
+    width: 95%;
+    background-color: #eee;
+    padding-bottom:10px ;
+}
+
+.team-card img{
+    width: 100%;
+}
+
+.team-card h4{
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.team-card p{
+    color: #777;
+}
+
+.team-card .info{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    transition: 0.3s;
+}
+
+.team-card:hover .info{
+    display: block;
+}
+
+
+
+.team-card .info i{
+    padding: 10px;
+    font-size: 16px;
+}
